@@ -1,0 +1,7 @@
+{
+    "CAPTCHA_API_KEY": "",
+    "RPC_URL": "https://ethereum-sepolia.blockpi.network/v1/rpc/public",
+    "RECIPIENT_ADDRESS": "",
+    "WALLET_AMOUNT": 10,
+    "USE_PROXY": true
+  }  

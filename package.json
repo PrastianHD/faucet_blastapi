@@ -1,0 +1,26 @@
+{
+  "name": "faucet-blastapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "transfer": "node src/module/transfer.js",
+    "cekbalance": "node src/module/cekbalance.js",
+    "generate": "node src/module/generate.js",
+    "convert": "node src/module/pktoaddress.js"
+  },
+  "keywords": [],
+  "author": "Prastian Hidayat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "ethers": "^6.13.2",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^7.0.5",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "description": "Bot claim Fucet ETH Testnet"
+}
