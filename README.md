@@ -1,4 +1,4 @@
-# Tools CLaim Faucet in Blast Api
+# Tools Claim Faucet
 
 ## Description
 This is a simple tool to claim faucets taken from [Blast API](https://blastapi.io/faucets) using the Claim Faucet Tools. In addition, there are functions to Check ETH Balance, create wallets, and ETH Transfer Features.
@@ -17,7 +17,7 @@ This is a simple tool to claim faucets taken from [Blast API](https://blastapi.i
 ## Installation
 1. Clone the repository:
 ```bash shell
-git clone https://github.com/PrastianHD/faucet-blastapi.git
+git clone https://github.com/PrastianHD/faucet_blastapi.git
 ```
 
 2. Navigate into the project directory:
@@ -33,20 +33,20 @@ npm install
 4. Configuration
 
 - Go to path/src/config.json
-```
+```bash shell
   {
-    "CAPTCHA_API_KEY": "", # This is the Captha API KEY
-    "RPC_URL": "", # This is the EVM RPC URL, can be Sepolia and so on
-    "RECIPIENT_ADDRESS": "", # This is the recipient address for the Transfer feature
-    "WALLET_AMOUNT": 10, # This is the number of wallets you want to create
+    "CAPTCHA_API_KEY": "", #This is the Captha API KEY
+    "RPC_URL": "", #This is the EVM RPC URL, can be Sepolia and so on
+    "RECIPIENT_ADDRESS": "", #This is the recipient address for the Transfer feature
+    "WALLET_AMOUNT": 10, #This is the number of wallets you want to create
     "USE_PROXY": true # `true` to use proxy, `false` to disable it
 } 
 ```
 
 - Go to path/src/data
-  - address.txt # this is a list of addresses to receive faucets
-  - privatekey.txt # this is the pk for the transfer function
-  - proxy.txt # please enter in the format username:password:host:port
+  - address.txt #this is a list of addresses to receive faucets
+  - privatekey.txt #this is the pk for the transfer function
+  - proxy.txt #please enter in the format username:password:host:port
 
 
 # Usage
