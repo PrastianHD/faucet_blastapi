@@ -44,10 +44,11 @@ npm install
 ```
 
 - Go to path/src/data
+```bash shell
   - address.txt #this is a list of addresses to receive faucets
   - privatekey.txt #this is the pk for the transfer function
   - proxy.txt #please enter in the format username:password:host:port
-
+```
 
 # Usage
 ### 1. Claim Faucet
